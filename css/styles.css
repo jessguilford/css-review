@@ -1,0 +1,31 @@
+/* Wireframing */
+*:not(body):not(html) {
+  box-sizing: border-box;
+  border: 1px solid grey;
+}
+/* Layout */
+
+/* Nav */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+  margin: 0;
+  background-color: #eee;
+}
+
+li {
+  margin: 0 15px;
+}
+
+.brand {
+  align-self: flex-start;
+}
