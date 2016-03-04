@@ -8,6 +8,7 @@
 /* Base */
 body {
   color: #fff;
+  font-family: sans-serif;
 }
 
 /* Layout */
@@ -51,14 +52,13 @@ body {
 
 .hero {
   height: 600px;
-  background-color: #fafeaf;
+  background-image: url("../images/breakfast.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.gallery {
-  min-height: 800px;
 }
 
 /* Nav */
@@ -79,6 +79,11 @@ body {
 
 .search-bar {
   display: none;
+  background-color: #333;
+}
+
+.search-bar li {
+  margin: 0 15px;
 }
 
 /* Gallery */
@@ -117,6 +122,36 @@ body {
 
 .gallery-button:hover {
   transform: scale(1.3);
+}
+
+.item01 {
+  background: url("../images/breakfast.jpeg");
+  background-size: cover;
+}
+
+.item02 {
+  background: url("../images/group.jpeg");
+  background-size: cover;
+}
+
+.item03 {
+  background: url("../images/breakfast.jpeg");
+  background-size: cover;
+}
+
+.item04 {
+  background: url("../images/breakfast.jpeg");
+  background-size: cover;
+}
+
+.item05 {
+  background: url("../images/breakfast.jpeg");
+  background-size: cover;
+}
+
+.item06 {
+  background: url("../images/breakfast.jpeg");
+  background-size: cover;
 }
 
 
