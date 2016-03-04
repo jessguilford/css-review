@@ -1,5 +1,6 @@
 $(document).ready(function() {
   $(".menu-toggle").click(function(event) {
-    $(this).siblings().fadeToggle();
+    $(".full-nav").fadeToggle();
+    $(".container").toggleClass("is-pushed");
   });
 });
