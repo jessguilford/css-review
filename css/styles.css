@@ -6,9 +6,16 @@
 }
 
 /* Base */
+
 body {
   color: #fff;
   font-family: sans-serif;
+  margin: 0;
+}
+
+h2 {
+  font-weight: normal;
+  margin: 0;
 }
 
 /* Layout */
@@ -33,6 +40,10 @@ body {
   padding: 0;
 }
 
+.container {
+  background-color: #fff;
+}
+
 .is-pushed {
   transform: translateX(-40%);
 }
@@ -41,6 +52,7 @@ body {
   display: none;
   height: 100%;
   width: 40%;
+  padding: 15px;
   background-color: #333;
   position: absolute;
   right: 0;
@@ -53,6 +65,10 @@ body {
   padding: 0;
 }
 
+.full-nav li {
+  margin: 10px 0;
+}
+
 .hero {
   height: 600px;
   background-image: url("../images/breakfast.jpeg");
@@ -62,6 +78,16 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.hero h2 {
+  margin-top: 100px;
+  font-size: 1.1em;
+}
+
+.hero-title {
+  font-size: 5em;
+  margin-top: 10px;
 }
 
 /* Nav */
@@ -76,6 +102,10 @@ body {
 
 .brand {
   align-self: flex-start;
+  margin: 0 15px;
+}
+
+.menu-toggle {
   margin: 0 15px;
 }
 
@@ -116,7 +146,7 @@ body {
   left: 0;
   bottom: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, .4);
 }
 
 .gallery-item h2 {
@@ -134,6 +164,14 @@ body {
   opacity: .6;
   transition: all 0.3s ease-in-out;
   z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-button i {
+  color: #666;
+  font-size: 2em;
 }
 
 .gallery-button:hover {
@@ -205,6 +243,7 @@ body {
   .search-bar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 20px 10px;
   }
 
@@ -235,6 +274,10 @@ body {
   }
 
   .gallery-item {
-    flex: 1 1 30%;
+    flex: 1 1 25%;
+  }
+
+  .item01, .item06 {
+    flex: 2 2 30%;
   }
 }
